@@ -24,7 +24,7 @@ class ThreeTeleports {
     long long ans=1e18,xhome,yhome;
     void solve(int idx,int x,int y,long long seconds)
     {
-        if(idx==15)return;
+        if(idx==9)return;
         ans=min(abs(x-xhome)+abs(y-yhome)+seconds,ans);
         long long a=abs(p[idx%3][0]-x)+abs(p[idx%3][1]-y)+10;
         long long b=abs(p[idx%3][2]-x)+abs(p[idx%3][3]-y)+10;
