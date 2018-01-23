@@ -66,7 +66,7 @@ public:
             if(cnt==jLen)
             {
                 mini=(*st.begin());
-                cout<<"i = "<<i<<" mini = "<<mini<<" st.size = "<<st.size()<<" front = "<<q.front()<<endl;
+                //cout<<"i = "<<i<<" mini = "<<mini<<" st.size = "<<st.size()<<" front = "<<q.front()<<endl;
                 ans=max(mini,ans);
                 del=q.front(); q.pop();
                 if(st.count(del)==1)
